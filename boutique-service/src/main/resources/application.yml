@@ -1,0 +1,14 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: BOUTIQUE-SERVICE
+  datasource:
+    url: jdbc:h2:mem:boutique
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
